@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.seguranca;
+package com.blog.App.seguranca;
 
 import java.util.Optional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.farmacia.Farmacia.models.Usuario;
-import com.farmacia.Farmacia.repository.UsuarioRepository;
+import com.blog.App.models.Usuario;
+import com.blog.App.repository.UsuarioRepository;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

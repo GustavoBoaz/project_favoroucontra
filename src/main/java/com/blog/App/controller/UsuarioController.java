@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.controller;
+package com.blog.App.controller;
 
 import java.util.Optional;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.farmacia.Farmacia.models.UserLogin;
-import com.farmacia.Farmacia.models.Usuario;
-import com.farmacia.Farmacia.service.UsuarioService;
+import com.blog.App.models.UserLogin;
+import com.blog.App.models.Usuario;
+import com.blog.App.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")

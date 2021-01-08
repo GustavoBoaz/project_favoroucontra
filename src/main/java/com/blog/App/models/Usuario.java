@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.models;
+package com.blog.App.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

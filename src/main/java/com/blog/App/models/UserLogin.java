@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.models;
+package com.blog.App.models;
 
 public class UserLogin {
 	

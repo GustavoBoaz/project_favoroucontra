@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.models;
+package com.blog.App.models;
 
 import java.util.List;
 
@@ -31,5 +31,41 @@ public class Post {
 	@JoinColumn(name = "postId", nullable = true)
 	@JsonIgnoreProperties("posts")
 	private List<Voto> votos;
+
+	public Post() {
+	}
+
+	public Post(Long id, @NotNull String titulo, @NotNull String descricao, List<Voto> votos) {
+		this.id = id;
+		this.titulo = titulo;
+		this.descricao = descricao;
+		this.votos = votos;
+	}
+
+	public Long getId() {
+		return id;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public List<Voto> getVotos() {
+		return votos;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public void setVotos(List<Voto> votos) {
+		this.votos = votos;
+	}
 
 }

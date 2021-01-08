@@ -1,4 +1,4 @@
-package com.farmacia.Farmacia.service;
+package com.blog.App.service;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.farmacia.Farmacia.models.UserLogin;
-import com.farmacia.Farmacia.models.Usuario;
-import com.farmacia.Farmacia.repository.UsuarioRepository;
+import com.blog.App.models.UserLogin;
+import com.blog.App.models.Usuario;
+import com.blog.App.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {

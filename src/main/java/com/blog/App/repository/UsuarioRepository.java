@@ -1,10 +1,10 @@
-package com.farmacia.Farmacia.repository;
+package com.blog.App.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.farmacia.Farmacia.models.Usuario;
+import com.blog.App.models.Usuario;
 
 public interface UsuarioRepository extends JpaRepository<Usuario,Long>{
 	
